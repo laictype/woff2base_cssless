@@ -5,6 +5,6 @@ This simple tool converts .woff2 font files to Base64 strings to include in your
 
 (Note: It now accepts .ttf and .woff files, too.)
 
-#css'less
+# css'less
 Just a small update for easier copy and paste.
 Thank you hellogreg for [https://hellogreg.github.io/woff2base/](https://hellogreg.github.io/woff2base/)
