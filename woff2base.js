@@ -21,17 +21,9 @@
   }
 
   function displayFontInfo(name, text) {
-    const cssHeader = `@font-face { \r\n` +
-      `  font-family: "${name}";\r\n` +
-      `  /* Add other properties here, as needed. For example: */\r\n` +
-      `  /*\r\n` +
-      `  font-weight: 100 900;\r\n` +
-      `  font-style: normal italic;\r\n` +
-      `  */\r\n` +
-      `  src: url(`;
+    const cssHeader = ``;
 
-    const cssFooter = `);\r\n` +
-      `}`;
+    const cssFooter = `);\r\n`;
 
     $currentfont.innerHTML = name;
     $csscode.value = cssHeader + text + cssFooter;
